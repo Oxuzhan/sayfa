@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Merhaba...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+    body {
+      background: linear-gradient(to right, #fdeff9, #ec38bc);
+      color: #fff;
+      font-family: 'Georgia', serif;
+      text-align: center;
+      padding: 20vh 10px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+    p {
+      font-size: 1.3em;
+    }
+    .btn {
+      background: white;
+      color: #ec38bc;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #ec38bc;
+      color: white;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Merhaba Güzellik 🌸</h1>
+  <p>Bu site sadece sana özel... Web'den girmeni çok isterim, çünkü telefon bazen duyguları tam veremiyor.</p>
+  <br><br>
+  <a class="btn" href="zaman.html">Beni keşfetmeye başla</a>
+</body>
+</html>
